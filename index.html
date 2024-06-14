@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible"  content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" href="style.css">
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Roboto:wght@100;300;400;500;700&family=Secular+One&display=swap" rel="stylesheet">
+    <!-- Link swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+</head>
+<body>
+    <!-- header section -->
+    <header>
+        <a href="#" class="logo"><img src="navbar/logo.png"></a>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about" class="about">About</a>
+            <a href="#menu">Menu</a>
+            <a href="#team">Team</a>
+            <a href="#reservation">Reservation</a>
+            <a href="#blog">Blog</a>
+        </nav>      
+
+        <div class="icons">
+            <i class="fas fa-bars" id="menu1"></i>
+            <i class="fas fa-search"></i>
+            <!-- <i class="fas fa-heart"></i>
+            <i class="fas fa-shopping-cart"></i> -->
+            <button type="button"><a href="login.html">Login</a></button>
+            <button type="button"><a href="signup.html">Sign Up</a></button>
+        </div>
+    </header>
+
+    <!-- slider section -->
+    <div class="home" id="home">
+        <div class="swiper home-slider">
+            <div class="swiper-wrapper wrapper">
+                <div class="swiper-slide slide slide1">
+                    <div class="content">
+                        <img src="navbar/crown-symbol.png">
+
+                        <h3>delicious royate</h3>
+                        <h1>gift voucher</h1>
+                        <p>
+                            give away your beloved customers
+                        </p>
+                        <a href="#" class="btn">order now</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide slide2">
+                    <div class="content">
+                        <img src="navbar/crown-symbol.png">
+
+                        <h3>sale of 10% this dish</h3>
+                        <h1>the fresh</h1>
+                        <p>
+                            food restaurant
+                        </p>
+                        <a href="#" class="btn">Order Now</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide slide3">
+                    <div class="content">
+                        <img src="navbar/crown-symbol.png">
+
+                        <h3>we are open</h3>
+                        <h1>fresh fruits</h1>
+                        <p>
+                            you will love it
+                        </p>
+                        <a href="#" class="btn">Order Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+    <!-- slider section ends -->
+
+    <section class="welcome" id="about">
+        <h1 class="heading">WELCOME TO ROYATE</h1>
+        <center><h3 class="sub-heading"> ~ Luxury & Quality ~ </h3></center>
+
+        <div class="box-container">
+            <div class="box">
+                <div class="image">
+                    <img src="navbar/post-thumb-1.jpg">
+                </div>
+
+                <div class="content">
+                    <h3>PROFESSIONAL LEVEL</h3>
+                    <p>adapt at strictly monitoring kitchen activities and meeting health code standards. strong organizational, leadership and management skills...</p>
+
+                    <a href="#" class="btn">Read More</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="navbar/post-thumb-2.jpg">
+                </div>
+
+                <div class="content">
+                    <h3>FRESH FOOD GUARANTEED</h3>
+                    <p>the best part of our restaurant is to provide fresh and quality food to consumers. serving good quality food can earn our restaurant a good reputation...</p>
+
+                    <a href="#" class="btn">Read More</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="navbar/post-thumb-3.jpg">
+                </div>
+
+                <div class="content">
+                    <h3>THE MENU IS PLENTIFUL</h3>
+                    <p>the menu is fiiled with the different item names with it's ingridients and price rate.let our customer imagine each dish's flavors, textures and aromas...</p>
+
+                    <a href="#" class="btn">Read More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- our menu section starts -->
+    <section class="our-menu" id="menu">
+        <h1 class="heading">our food menu</h1>
+    <center><h3 class="sub-heading"> ~ see what we offer ~ </h3></center>
+
+    <div class="menu-container">
+        <div class="item">
+            <div class="item-name">
+                <h2>main course</h2>
+                <img src="navbar/drinks.png">
+            </div>
+
+            <div class="item-body">
+                <div class="item-menu">
+                    <h3>italian food</h3>
+                    <span class="dots"></span>
+                    <h3>20$</h3>
+
+                    <ul>
+                        <li><a href="#">curry</a></li>
+                        <li><a href="#">Italian</a></li>
+                        <li><a href="#">florentine beef</a></li>
+                        <li><a href="#">pasta</a></li>
+                    </ul>
+                </div>
+
+                <div class="item-menu">
+                    <h3>chinese food</h3>
+                    <span class="dots"></span>
+                    <h3>18$</h3>
+
+                    <ul>
+                        <li><a href="#">Rice</a></li>
+                        <li><a href="#">frankies</a></li>
+                        <li><a href="#">Sausage</a></li>
+                        <li><a href="#">Noodles</a></li>
+                    </ul>
+                    <div class="more-food">
+                        <a href="#">see more</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="item">
+            <div class="item-name">
+                <h2>soups & salads</h2>
+                <img src="navbar/drinks.png">
+            </div>
+
+            <div class="item-body">
+                <div class="item-menu">
+                    <h3>delicious soups</h3>
+                    <span class="dots"></span>
+                    <h3>6$</h3>
+
+                    <ul>
+                        <li><a href="#">corn</a></li>
+                        <li><a href="#">Italian</a></li>
+                        <li><a href="#">vegetable</a></li>
+                        <li><a href="#">thai</a></li>
+                    </ul>
+                </div>
+
+                <div class="item-menu">
+                    <h3>fresh salads</h3>
+                    <span class="dots"></span>
+                    <h3>6$</h3>
+
+                    <ul>
+                        <li><a href="#">Stuffed tomato</a></li>
+                        <li><a href="#">Italian</a></li>
+                        <li><a href="#">grilled</a></li>
+                        <li><a href="#">Spinach</a></li>
+                    </ul>
+                    <div class="more-food">
+                        <a href="#">see more</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="item">
+            <div class="item-name">
+                <h2>drinks</h2>
+                <img src="navbar/drinks.png">
+            </div>
+
+            <div class="item-body">
+                <div class="item-menu">
+                    <h3>cocktails</h3>
+                    <span class="dots"></span>
+                    <h3>7$</h3>
+
+                    <ul>
+                        <li><a href="#">mojito</a></li>
+                        <li><a href="#">daiquiri</a></li>
+                        <li><a href="#">margarita</a></li>
+                        <li><a href="#">martini</a></li>
+                    </ul>
+                </div>
+
+                <div class="item-menu">
+                    <h3>soft drinks</h3>
+                    <span class="dots"></span>
+                    <h3>8$</h3>
+
+                    <ul>
+                        <li><a href="#">coke</a></li>
+                        <li><a href="#">pepsi cola</a></li>
+                        <li><a href="#">lemon</a></li>
+                        <li><a href="#">sprite</a></li>
+                    </ul>
+                    <div class="more-food">
+                        <a href="#">see more</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="item">
+            <div class="item-name">
+                <h2>desserts</h2>
+                <img src="navbar/drinks.png">
+            </div>
+
+            <div class="item-body">
+                <div class="item-menu">
+                    <h3>ice-cream cones</h3>
+                    <span class="dots"></span>
+                    <h3>10$</h3>
+
+                    <ul>
+                        <li><a href="#">chocolate</a></li>
+                        <li><a href="#">red velvet</a></li>
+                        <li><a href="#">vanilla crispy</a></li>
+                        <li><a href="#">caramel</a></li>
+                    </ul>
+                </div>
+
+                <div class="item-menu">
+                    <h3>ice-cream cups</h3>
+                    <span class="dots"></span>
+                    <h3>9$</h3>
+
+                    <ul>
+                        <li><a href="#">choco brownie</a></li>
+                        <li><a href="#">fruit bonanza</a></li>
+                        <li><a href="#">black currant</a></li>
+                        <li><a href="#">golden pearl</a></li>
+                    </ul>
+                    <div class="more-food">
+                        <a href="#">see more</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    </section>
+    <!-- our menu section ends -->
+
+    <!-- our team section -->
+    <section class="our-team" id="team">
+        <h1 class="heading">our talented chef</h1>
+        <center><h3 class="sub-heading"> ~ experience & enthusiasm ~ </h3></center>
+        
+        <div class="our-chef">
+            <div class="item">
+                <div class="image">
+                    <img src="navbar/our-chef-1.jpg">
+                </div>
+
+                <div class="chef-info">
+                    <div>
+                        <h3>JERRY ROBERTSON</h3>
+                        <span>master chef</span>
+
+                        <ul>
+                            <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-whatsapp"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="item">
+                <div class="image">
+                    <img src="navbar/our-chef-2.jpg">
+                </div>
+
+                <div class="chef-info">
+                    <div>
+                        <h3>COROL ROWSON</h3>
+                        <span>master chef</span>
+
+                        <ul>
+                            <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-whatsapp"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="item">
+                <div class="image">
+                    <img src="navbar/our-chef-3.jpg">
+                </div>
+
+                <div class="chef-info">
+                    <div>
+                        <h3>TAYLOR MCCOY</h3>
+                        <span>master chef</span>
+
+                        <ul>
+                            <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-whatsapp"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- our team section ends -->
+
+    <!-- reservation section -->
+    <div class="reservation" id="reservation">
+        <div class="image">
+
+        </div>
+        <div class="form">
+            <h1 class="heading">Book a Table</h1>
+            <center><h3 class="sub-heading"> ~ Check Out Our Places ~ </h3></center>
+            <div>
+                <script src="https://sheetdb.io/s/f/msx2yv430o6sg.js"></script>
+            </div>
+            <!-- <form>
+                <div class="form-holder">
+                    <div>
+                        <select>
+                            <option>1 people</option>
+                            <option>2 people</option>
+                            <option>3 people</option>
+                            <option>4 people</option>
+                        </select>
+                        <input type="text" placeholder="Time">
+                        <input type="text" placeholder="Phone">
+                    </div>
+
+                    <div>
+                        <input type="text" placeholder="Date">
+                        <input type="text" placeholder="Name">
+                        <input type="email" placeholder="email">
+                    </div>
+                </div>
+                <center><a href="#" class="btn">book now</a></center>
+            </form> -->
+        </div>
+    </div>
+    <!-- reservation section ends -->
+
+    <!-- news section -->
+    <section class="blog welcome" id="blog">
+        <h1 class="heading">latest news</h1>
+        <center><h3 class="sub-heading"> ~ greate articles ~ </h3></center>
+
+        <div class="box-container">
+            <div class="box">
+                <div class="image">
+                    <img src="navbar/post-thumb-4.jpg">
+                </div>
+
+                <div class="content">
+                    <h3>PROFESSIONAL LEVEL</h3>
+                    <p>adapt at strictly monitoring kitchen activities and meeting health code standards. strong organizational, leadership and management skills...</p>
+                    <a href="#">read more</a>
+                    <img src="navbar/post-body-bg-1.png">
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="navbar/post-thumb-5.jpg">
+                </div>
+
+                <div class="content">
+                    <h3>FRESH FOOD GUARANTEED</h3>
+                    <p>the best part of our restaurant is to provide fresh and quality food to consumers. serving good quality food can earn our restaurant a good reputation...</p>
+                    <a href="#">read more</a>
+                    <img src="navbar/post-body-bg-2.png">
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="navbar/post-thumb-6.jpg">
+                </div>
+
+                <div class="content">
+                    <h3>THE MENU IS PLENTIFUL</h3>
+                    <p>the menu is fiiled with the different item names with it's ingridients and price rate.let our customer imagine each dish's flavors, textures and aromas...</p>
+                    <a href="#">read more</a>
+                    <img src="navbar/post-body-bg-3.png">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- news section ends -->
+
+    <!-- footer section -->
+    <section class="footer" id="footer">
+        <img src="navbar/logo.png" class="logo">
+
+        <div class="container">
+            <div>
+                <h3>ABOUT US</h3>
+                <p>it is a place where you can enjoy food with family with musical environment and also got quality food only that makes you full of hunger firstly and then gives you a good satisfaction. </p>
+            </div>
+
+            <div>
+                <h3>GET NEWS & OFFERS</h3>
+                <input type="email" placeholder="enter your email">
+                <ul>
+                    <li><a href="#" class="fa-brands fa-twitter"><i></i></a></li>
+                    <li><a href="#" class="fa-brands fa-instagram"><i></i></a></li>
+                    <li><a href="#" class="fa-brands fa-whatsapp"><i></i></a></li>
+                    <li><a href="#" class="fa-brands fa-linkedin"><i></i></a></li>
+                </ul>
+            </div>
+
+            <div>
+                <h3>CONTACT US</h3>
+                <span>Royate Networks</span>
+                <span>+91 1919191919</span>
+                <span>Royatenet01@gmail.com</span>
+                <span>www.Royatenetworks.in</span>
+            </div>
+        </div>
+
+        <p>&copy;2022 reserved by royate networks</p>
+    </section>
+    <!-- footer section ends -->
+
+    <!-- jump to top -->
+    <a href="#"><button class="topbtn"><i class="fa-solid fa-angle-up"></i></button></a>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".home-slider", {
+        spaceBetween: 30,
+        centeredSlides: true,
+        autoplay: {
+            delay: 5000,
+            disableOnInteraction: false,
+        },
+        pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+        },
+        loop: true,
+        });
+    </script>
+    <script type="text/javascript">
+        let menu = document.querySelector('#menu');
+        let navbar = document.querySelector('.navbar');
+
+        menu.onclick = () =>{
+            menu.classList.toggle('fa-times');
+            navbar.classList.toggle('active');
+        }
+    </script>
+</body>
+</html>
